@@ -9,6 +9,8 @@ I use [Parcel](https://parceljs.org/), [rest.ts](https://github.com/hmil/rest.ts
 - [RESTyped](https://github.com/rawrmaan/restyped), instead of rest.ts
 - NPM instead of Yarn, but the concept of Workspaces might be different; however, Lerna does enable Workspace in NPM.
 
-## Publishing
+## Publishing to NPM
+
+This is also possible, but there will be need to minimize number of `dependencies` for `/packages/web`.
 
 For `/packages/web/package.json`, don't forget to move all dependencies to `"devDependencies"`, or at least, something other than `"dependencies"`.
