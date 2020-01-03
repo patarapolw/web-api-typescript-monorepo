@@ -1,0 +1,27 @@
+{
+  "name": "@web-api-typescript-monorepo/server",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "private": true,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "ts-node-dev -O '{\"module\": \"commonjs\"}' ./src/index.ts",
+    "build": "true",
+    "postbuild": "tsc"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.2",
+    "@web-api-typescript-monorepo/api": "*",
+    "@web-api-typescript-monorepo/web": "*",
+    "express": "^4.17.1",
+    "rest-ts-express": "^0.5.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.4"
+  }
+}
