@@ -18,7 +18,7 @@
     "@web-api-typescript-monorepo/api": "*",
     "@web-api-typescript-monorepo/web": "*",
     "express": "^4.17.1",
-    "rest-ts-express": "^0.5.0"
+    "rest-ts-express": "^0.6.1"
   },
   "devDependencies": {
     "ts-node-dev": "^1.0.0-pre.44",
