@@ -12,7 +12,7 @@
     "build": "true"
   },
   "dependencies": {
-    "rest-ts-core": "^0.5.0"
+    "rest-ts-core": "^0.6.1"
   },
   "devDependencies": {
     "typescript": "^3.7.4"
